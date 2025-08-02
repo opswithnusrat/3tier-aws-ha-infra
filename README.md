@@ -24,7 +24,7 @@ A highly available three‑tier architecture deployed using Terraform, consistin
 - A local editor (e.g., VS Code)
 
 ## Highly Available Three‑Tier Architecture on AWS using Terraform:
-![Three Tier Architecture](images/architecture.png)
+![Three Tier Architecture](images/architecture.webp)
 
 Deployment includes:
 
