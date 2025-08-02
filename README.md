@@ -13,8 +13,7 @@ A highly available three‑tier architecture deployed using Terraform, consistin
 - **Network**: VPC, public/private subnets (across two AZs), Internet Gateway, NAT Gateway, routing tables
 - **Bastion Host**: Secure access to private instances
 - **Load Balancers**: Application Load Balancers fronting both web and app tiers
-```
----
+
 ## Prerequisites
 
 - AWS account with appropriate IAM permissions
