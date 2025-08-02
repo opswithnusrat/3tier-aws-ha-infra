@@ -42,15 +42,7 @@ Deployment includes:
 
 - `provider.tf`: AWS provider configuration and region setting
 - `network_resources.tf`: VPC, subnets, IGW, NAT Gateway, route tables
-- `security_groups.tf`: Define SGs for bastion, web, app, DB tiers
-- `bastion.tf`: Bastion EC2 instance configuration
-- `load_balancers.tf`: ALB and listener resources
-- `asg_web.tf`: Web-tier launch template and ASG
-- `asg_app.tf`: App-tier launch template and ASG
-- `rds.tf`: RDS MySQL instance deployment
-- `outputs.tf`: Terraform outputs for ALB DNS, bastion IP, RDS endpoint
-
-(adjust module/file naming as needed)
+- `security_groups.tf`: Define SGs for bastion, web, app, DB tiers, ALB and listener resources
 
 ## Usage Instructions
 
